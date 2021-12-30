@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my kingdom come</title>
+    <meta content="a" property="og:title" />
+    <meta content="A" property="og:description" />
+    <meta content="#fc3d03" data-react-helmet="true" name="theme-color" />
+</head>
+<body>
+    <video autoplay="autoplay" height="100%" loop id="vid" muted>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <iframe src="audio.mp3" frameborder="0" style="position: absolute; top: -50%;"></iframe>
+</body>
+<script>
+    var vid = document.getElementById("vid");
+    //vid.play();
+</script>
+<style>
+    body{
+        background-color: black;
+    }
+    video {
+        position: fixed;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+</style>
+</html>
